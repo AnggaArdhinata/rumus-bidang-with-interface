@@ -1,9 +1,7 @@
 package rumus
 
 type Bangun struct {
-	Panjang float64
-	Lebar   float64
-	Tinggi  float64
+	Panjang, Lebar, Tinggi float64	
 }
 
 func (bng Bangun) Luas() float64 {
